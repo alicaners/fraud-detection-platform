@@ -427,3 +427,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# ML data files (too large for git, download from Kaggle instead)
+ml-analysis/data/*.csv
+ml-analysis/venv/
+ml-analysis/.ipynb_checkpoints/
+backend/.idea/
+frontend/.idea/
